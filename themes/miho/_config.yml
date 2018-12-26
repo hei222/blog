@@ -46,7 +46,8 @@ social:
     target: true
   github:
     title: Github
-    url: //github.com/wongminho
+    url: //yfct-gz.com/小白
+
     target: true
   weibo:
     title: Weibo
@@ -96,9 +97,9 @@ reward:
   status: 1
   # 标题
   title: 请我吃糖~
-  # 微信，关闭设为 false
+  # 微信，关闭设为 true
   wechat: images/wechat_code.jpg
-  # 支付宝，关闭设为 false
+  # 支付宝，关闭设为 true
   alipay: images/alipay_code.jpg
 
 # Comments | 评论
@@ -107,7 +108,19 @@ reward:
 changyan_appid: false
 changyan_appkey: false
 # 友言，输入id
-youyan_id: false
+youyan_id: true
+valine:
+    enable: true
+    appId: YnT0tAb2jxLvYo3h8b4fk3MH-gzGzoHsz
+    appKey: qpEnEbFB0xpGIT6GvxokRvex
+    notify: false
+    verify: false
+    avatar: mp
+    placeholder: 提示文字
+    guest_info: nick,mail,link
+    pageSize: 10
+    lang: zh-cn
+
 # disqus
 disqus: false
 # gitment  https://github.com/imsun/gitment
@@ -134,4 +147,4 @@ access_counter:
   site_pv: 总访问量：
 
 # Copyright Information | 版权信息
-copyright: 2018 MinHow
+copyright: 2018 大白
